@@ -68,7 +68,7 @@ const ContactUs = () => {
             <div className="row">
               <p className="col-3 tw-text-gold">Email:</p>
               <p className="col tw-text-bone">
-                noreply@soulsmith.empathysauce.com
+                contact@soulsmith.empathysauce.com
               </p>
             </div>
           </div>
