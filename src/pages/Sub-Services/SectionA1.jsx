@@ -1,4 +1,3 @@
-import React from "react";
 import {useTranslation} from "react-i18next";
 import "./css/section-a1.css";
 import Footer from "../../components/Footer";
@@ -135,7 +134,7 @@ const SectionA1 = () => {
                   </li>
                   <li className="price">
                     {isThaiLanguage ? (
-                        <pclassName="">
+                        <p className="">
                       <span className="session1">
                           <b>{t("A1aSession1")} </b></span>
                           <small className="price01">
@@ -146,7 +145,7 @@ const SectionA1 = () => {
                       </span>
                         </p>
                     ) : (
-                        <pclassName="">
+                        <p className="">
                       <span className="single">
                         <b className="">{t("A1aSession1")} </b>
                       </span>
@@ -310,7 +309,7 @@ const SectionA1 = () => {
                         </p>
                     ) : (
                         <p>
-                      <spanclassName="single">
+                      <span className="single">
                         <b className="">{t("A1aSession1")} </b>
                       </span>
                           {/* <small className="me-5">
@@ -520,7 +519,7 @@ const SectionA1 = () => {
                         </p>
                     ) : (
                         <p>
-                      <spanclassName="single">
+                      <span className="single">
                         <b className="">{t("A1aSession1")}</b>
                       </span>
                           {/* <small className="me-5">
